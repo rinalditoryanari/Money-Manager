@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="283dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:padding="5pt"
+            android:text="Add Transaction"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+        <Button
+            android:id="@+id/save_addtrans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SAVE"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="17dp"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tanggal Transaksi"
+        android:textColor="@color/black"
+        android:textSize="7pt"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/ed_dateTrans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Transaction"
+        android:textColor="@color/black"
+        android:textSize="7pt"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/trans"
+        android:prompt="@string/spin_trans"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name Transaction"
+        android:textColor="@color/black"
+        android:textSize="7pt"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"/>
+    <EditText
+        android:id="@+id/ed_nameTrans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Amount (Rp)"
+        android:textColor="@color/black"
+        android:textSize="7pt"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"/>
+    <EditText
+        android:id="@+id/ed_moneyTrans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp" />
+    </LinearLayout>
+</LinearLayout>

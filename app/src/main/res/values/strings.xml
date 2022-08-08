@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Money Manager</string>
+    <string name="spin_trans" />
+    <string name="empty_list_text" />
+    <string name="enter_nama" />
+    <string name="enter_kelas" />
+</resources>

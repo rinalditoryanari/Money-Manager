@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="18dp"
+    android:orientation="vertical"
+    tools:context=".ActivityLogin"
+    android:background="@drawable/background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log in"
+        android:layout_margin="10dp"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:textSize="20dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Username"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:background="@drawable/ed_bakground"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:inputType="textPersonName"
+        android:id="@+id/et_email_SignIN"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="20dp"
+        android:background="@drawable/ed_bakground"
+        android:padding="10dp"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:id="@+id/et_pass_SignIN"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:layout_margin="10dp"
+        android:textSize="16dp"
+        android:padding="10dp"
+        android:background="@drawable/ed_bakground"
+        android:id="@+id/button_signin_SignIN"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:text="Don't have account?SignUp"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:id="@+id/signup_tv"/>
+    </LinearLayout>
